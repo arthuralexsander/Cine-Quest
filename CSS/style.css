@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #14181d; 
+}
+
+.barraMenu{
+    display: flex;
+
+    background-color: #14181d;
+    border: 2px solid black;
+    align-items: center;
+    font-family: "Kanit", serif;
+}
+
+.logo{
+    margin-left: 10%;
+    flex: 40%;
+    color: white;
+
+}
+.logo img{
+    padding-left: 3vh;
+}
+
+.menu{
+    flex: 60%;
+    flex-flow: column;
+    margin-right: 10%;
+
+
+}
+
+.menu a{
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    
+}
+
+
+.menu a:hover{
+    border-bottom: 2px solid orange;
+    font-weight: bold;
+}
+
+
+.menu input{
+    width: 20vh;
+    background-color: rgb(75, 77, 80);
+    border-radius: 10px;
+    background: url(/caixaletrada/IMG/icons8-pesquisar-50.png) no-repeat right;
+    background-size: 15px;
+    color: white;
+    padding-left: 2px;
+    border: 2px solid rgb(167, 167, 167);
+}
+
+.menu input:hover{
+    background-color: black;
+    border: 2px solid orange;
+}
+
+header{
+    position: relative;
+    text-align: center;
+
+}
+
+.pbanner h1{
+    font-family: "Exo 2", serif;
+    color: white;
+}
+
+
+
+.botao{
+    padding-top: 2vh;
+
+    margin: 0 auto;
+
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.botao button{
+    background-color: #ff7b00;
+    color: white;
+    cursor: pointer;
+    padding:15px 25px;
+    border-radius: 10px;
+    font-family: "Kanit", serif;
+}
+
+.botao button:hover{
+    background-color: #f1953e;
+}
+
+
+.filmes{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8vh;
+}
+
+
+.poster{
+    width: 600px;
+    text-align: center;
+}
+
+.poster:hover{
+    border: 8px solid rgb(255, 124, 0);
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+article{
+    margin-top: 8vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10vh;
+    font-family: "Exo 2", serif;
+    
+}
+
+
+article h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 1vh;
+}
+
+.cards{
+    display: flex;
+    gap: 50px; 
+
+
+
+}
+
+
+.funcoes{
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    /* Criando um degrade para preenchimento na caixa */
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(255, 124, 0) 50%) right;
+    
+    /* 200% para que preencha toda a div */
+    background-size: 200%;
+    
+    transition: .6s ease-in;
+    border-radius: 9px;
+    box-shadow: #ff6a00 -5px 4px 1px 3px;
+    
+
+}
+
+.funcoes:hover{
+    background-position: left;
+    cursor: pointer;
+    color: white;
+}
+
+.funcoes p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+
+.funcoes img{
+    padding-top: 2px;
+}
